@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="output/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="flex justify-center items-center h-screen">
+
+    <div class="w-full md:w-1/2">
+        <h2 class="text-3xl font-bold text-center">Our Reviews</h2>
+        <div class="w-20 h-1 bg-sky-600 mx-auto my-5"></div>
+        <div class="w-full shadow-md rounded-lg flex justify-center flex-col text-center border p-5">
+            <img src="" class="w-24 rounded-full mx-auto" alt="">
+            <h3 class="text-2xl font-bold my-5" id="job"></h3>
+            <p id="info"></p>
+            <div class="button my-3">
+                <button class="px-3 rounded-md active:ring active:ring-sky-600" id="prevBtn">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <button class="px-3 rounded-md active:ring active:ring-sky-600" id="nextBtn">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+            <button class="px-2 py-1 border bg-sky-600 text-white active:ring-2 active:ring-sky-400 w-20 mx-auto rounded-md" id="randomBtn">surprise</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
